@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Menu">
+		<title>Menu</title>
+		<centered>1</centered>
+		<focused>1</focused>
+		<hidden>1</hidden>
+		<bg>wxSYS_COLOUR_3DLIGHT</bg>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<style>wxDEFAULT_DIALOG_STYLE|wxMINIMIZE_BOX</style>
+		<object class="wxFlexGridSizer" variable="FlexGridSizer1" member="no">
+			<cols>4</cols>
+			<rows>3</rows>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer2" member="no">
+					<cols>1</cols>
+					<rows>5</rows>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer6" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+									<label>Grupa A</label>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer7" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE16" variable="ChoiceA1" member="yes">
+									<content>
+										<item></item>
+										<item>Brazylia</item>
+										<item>Argentyna</item>
+										<item>Francja</item>
+										<item>Belgia</item>
+										<item>Anglia</item>
+										<item>Holandia</item>
+										<item>Chorwacja</item>
+										<item>Włochy</item>
+										<item>Portugalia</item>
+										<item>Hiszpania</item>
+										<item>Maroko</item>
+										<item>Szwajcaria</item>
+										<item>USA</item>
+										<item>Niemcy</item>
+										<item>Meksyk</item>
+										<item>Urugwaj</item>
+										<item>Kolumbia</item>
+										<item>Dania</item>
+										<item>Senegal</item>
+										<item>Japonia</item>
+										<item>Peru</item>
+										<item>Polska</item>
+										<item>Szwecja</item>
+										<item>Iran</item>
+										<item>Korea Południowa</item>
+										<item>Ukraina</item>
+										<item>Australia</item>
+										<item>Walia</item>
+										<item>Serbia</item>
+										<item>Tunezja</item>
+										<item>Chile</item>
+										<item>Kostaryka</item>
+										<item>Kamerun</item>
+										<item>Austria</item>
+										<item>Nigeria</item>
+										<item>Węgry</item>
+										<item>Rosja</item>
+										<item>Czechy</item>
+										<item>Egipt</item>
+										<item>Algieria</item>
+										<item>Ekwador</item>
+										<item>Szkocja</item>
+										<item>Norwegia</item>
+										<item>Turcja</item>
+										<item>Mali</item>
+										<item>Paragwaj</item>
+										<item>Wybrzeże Kości Słoniowej</item>
+										<item>Irlandia</item>
+										<item>Arabia Saudyjska</item>
+										<item>Burkina Faso</item>
+										<item>Grecja</item>
+										<item>Rumunia</item>
+										<item>Kanada</item>
+										<item>Słowacja</item>
+										<item>Wenezuela</item>
+										<item>Finlandia</item>
+										<item>Bośnia i Hercegowina</item>
+										<item>Ghana</item>
+										<item>Irlandia Północna</item>
+										<item>Katar</item>
+										<item>Panama</item>
+										<item>Słowenia</item>
+										<item>Islandia</item>
+										<item>Jamajka</item>
+										<item>Macedonia Północna</item>
+										<item>Albania</item>
+										<item>RPA</item>
+										<item>Irak</item>
+										<item>Czarnogóra</item>
+										<item>Zjednoczone Emiraty Arabskie</item>
+										<item>Bułgaria</item>
+										<item>Republika Zielonego Przylądka</item>
+										<item>DR Konga</item>
+										<item>Salwador</item>
+										<item>Oman</item>
+										<item>Izrael</item>
+										<item>Uzbekistan</item>
+										<item>Gruzja</item>
+										<item>Gabon</item>
+										<item>Chiny</item>
+										<item>Honduras</item>
+										<item>Boliwia</item>
+										<item>Gwinea</item>
+										<item>Jordania</item>
+										<item>Bahrajn</item>
+										<item>Curacao</item>
+										<item>Haiti</item>
+										<item>Zambia</item>
+										<item>Uganda</item>
+										<item>Syria</item>
+										<item>Benin</item>
+										<item>Luksemburg</item>
+										<item>Palestyna</item>
+										<item>Kirgistan</item>
+										<item>Armenia</item>
+										<item>Wietnam</item>
+										<item>Białoruś</item>
+										<item>Gwinea Równikowa</item>
+										<item>Kongo</item>
+										<item>Liban</item>
+										<item>Kenia</item>
+										<item>Madagaskar</item>
+										<item>Mauretania</item>
+										<item>Trynidad i Tobago</item>
+										<item>Nowa Zelandia</item>
+										<item>Indie</item>
+										<item>Kosowo</item>
+										<item>Tadżykistan</item>
+										<item>Estonia</item>
+										<item>Cypr</item>
+										<item>Tajlandia</item>
+										<item>Korea Północna</item>
+										<item>Namibia</item>
+										<item>Mozambik</item>
+										<item>Kazachstan</item>
+										<item>Sierra Leone</item>
+										<item>Angola</item>
+										<item>Gwinea Bissau</item>
+										<item>Gwatemala</item>
+										<item>Libia</item>
+										<item>Azerbejdżan</item>
+										<item>Niger</item>
+										<item>Wyspy Owcze</item>
+										<item>Malawi</item>
+										<item>Zimbabwe</item>
+										<item>Gambia</item>
+										<item>Togo</item>
+										<item>Sudan</item>
+										<item>Komory</item>
+										<item>Tanzania</item>
+										<item>Antigua i Barbuda</item>
+										<item>Republika Środkowoafrykańska</item>
+										<item>Łotwa</item>
+										<item>Filipiny</item>
+										<item>Turkmenistan</item>
+										<item>Wyspy Salomona</item>
+										<item>Rwanda</item>
+										<item>Etiopia</item>
+										<item>Surinam</item>
+										<item>Saint Kitts i Nevis</item>
+										<item>Burundi</item>
+										<item>Nikaragua</item>
+										<item>Suazi</item>
+										<item>Litwa</item>
+										<item>Malezja</item>
+										<item>Hongkong</item>
+										<item>Lesotho</item>
+										<item>Kuwejt</item>
+										<item>Botswana</item>
+										<item>Liberia</item>
+										<item>Indonezja</item>
+										<item>Dominikana</item>
+										<item>Andora</item>
+										<item>Jemen</item>
+										<item>Afganistan</item>
+										<item>Malediwy</item>
+										<item>Chińskie Tajpej</item>
+										<item>Papua-Nowa Gwinea</item>
+										<item>Myanmar</item>
+										<item>Singapur</item>
+										<item>Nowa Kaledonia</item>
+										<item>Tahiti</item>
+										<item>Fidżi</item>
+										<item>Vanuatu</item>
+										<item>South Sudan</item>
+										<item>Barbados</item>
+										<item>Malta</item>
+										<item>Kuba</item>
+										<item>Bermudy</item>
+										<item>Portoryko</item>
+										<item>Gujana</item>
+										<item>Saint Lucia</item>
+										<item>Grenada</item>
+										<item>Mołdawia</item>
+										<item>Nepal</item>
+										<item>Belize</item>
+										<item>Kambodża</item>
+										<item>Saint Vincent i Grenadyny</item>
+										<item>Montserrat</item>
+										<item>Mauritius</item>
+										<item>Czad</item>
+										<item>Makau</item>
+										<item>Mongolia</item>
+										<item>Dominika</item>
+										<item>Bhutan</item>
+										<item>Wyspy Św.Tomasza i Książęca</item>
+										<item>Laos</item>
+										<item>Samoa Amerykańskie</item>
+										<item>Wyspy Cooka</item>
+										<item>Brunei</item>
+										<item>Samoa</item>
+										<item>Bangladesz</item>
+										<item>Dżibuti</item>
+										<item>Cayman Islands</item>
+										<item>Pakistan</item>
+										<item>Tonga</item>
+										<item>Timor Wschodni</item>
+										<item>Liechtenstein</item>
+										<item>Seszele</item>
+										<item>Gibraltar</item>
+										<item>Erytrea</item>
+										<item>Aruba</item>
+										<item>Bahamy</item>
+										<item>Somalia</item>
+										<item>Guam</item>
+										<item>Turks i Caicos</item>
+										<item>Sri Lanka</item>
+										<item>Wyspy Dziewicze Stanów Zjednoczonych</item>
+										<item>Brytyjskie Wyspy Dziewicze</item>
+										<item>Anguilla</item>
+										<item>San Marino</item>
+									</content>
+									<handler function="OnChoiceA1Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer8" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE15" variable="ChoiceA2" member="yes">
+									<handler function="OnChoiceA2Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer9" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE1" variable="ChoiceA3" member="yes">
+									<handler function="OnChoiceA3Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer10" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE2" variable="ChoiceA4" member="yes">
+									<handler function="OnChoiceA4Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer3" member="no">
+					<cols>1</cols>
+					<rows>5</rows>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer11" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+									<label>Grupa B</label>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer12" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE3" variable="ChoiceB1" member="yes">
+									<handler function="OnChoiceB1Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer13" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE4" variable="ChoiceB2" member="yes">
+									<handler function="OnChoiceB2Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer14" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE5" variable="ChoiceB3" member="yes">
+									<handler function="OnChoiceB3Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer15" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE6" variable="ChoiceB4" member="yes">
+									<handler function="OnChoiceB4Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer4" member="no">
+					<cols>1</cols>
+					<rows>5</rows>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer16" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+									<label>Grupa C</label>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer17" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE7" variable="ChoiceC1" member="yes">
+									<handler function="OnChoiceC1Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer18" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE8" variable="ChoiceC2" member="yes">
+									<handler function="OnChoiceC2Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer19" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE9" variable="ChoiceC3" member="yes">
+									<handler function="OnChoiceC3Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer20" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE10" variable="ChoiceC4" member="yes">
+									<handler function="OnChoiceC4Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer5" member="no">
+					<cols>1</cols>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer21" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+									<label>Grupa D</label>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer22" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE11" variable="ChoiceD1" member="yes">
+									<handler function="OnChoiceD1Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer23" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE12" variable="ChoiceD2" member="yes">
+									<handler function="OnChoiceD2Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer24" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE13" variable="ChoiceD3" member="yes">
+									<handler function="OnChoiceD3Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer25" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE14" variable="ChoiceD4" member="yes">
+									<handler function="OnChoiceD4Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer26" member="no">
+					<cols>1</cols>
+					<rows>5</rows>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer32" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+									<label>Grupa E</label>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer33" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE17" variable="ChoiceE1" member="yes">
+									<handler function="OnChoiceE1Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer34" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE18" variable="ChoiceE2" member="yes">
+									<handler function="OnChoiceE2Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer35" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE19" variable="ChoiceE3" member="yes">
+									<handler function="OnChoiceE3Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer36" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE20" variable="ChoiceE4" member="yes">
+									<handler function="OnChoiceE4Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer27" member="no">
+					<cols>1</cols>
+					<rows>5</rows>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer37" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+									<label>Grupa F</label>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer38" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE21" variable="ChoiceF1" member="yes">
+									<handler function="OnChoiceF1Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer39" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE22" variable="ChoiceF2" member="yes">
+									<handler function="OnChoiceF2Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer40" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE23" variable="ChoiceF3" member="yes">
+									<handler function="OnChoiceF3Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer41" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE24" variable="ChoiceF4" member="yes">
+									<handler function="OnChoiceF4Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer28" member="no">
+					<cols>1</cols>
+					<rows>5</rows>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer42" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT7" variable="StaticText7" member="yes">
+									<label>Grupa G</label>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer43" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE25" variable="ChoiceG1" member="yes">
+									<handler function="OnChoiceG1Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer44" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE26" variable="ChoiceG2" member="yes">
+									<handler function="OnChoiceG2Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer45" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE27" variable="ChoiceG3" member="yes">
+									<handler function="OnChoiceG3Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer46" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE28" variable="ChoiceG4" member="yes">
+									<handler function="OnChoiceG4Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer29" member="no">
+					<cols>1</cols>
+					<rows>5</rows>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer47" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT8" variable="StaticText8" member="yes">
+									<label>Grupa H</label>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer48" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE29" variable="ChoiceH1" member="yes">
+									<handler function="OnChoiceH1Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer49" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE30" variable="ChoiceH2" member="yes">
+									<handler function="OnChoiceH2Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer50" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE31" variable="ChoiceH3" member="yes">
+									<handler function="OnChoiceH3Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer51" member="no">
+							<cols>3</cols>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE32" variable="ChoiceH4" member="yes">
+									<handler function="OnChoiceH4Select" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer30" member="no">
+					<cols>3</cols>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxButton" name="ID_BUTTON2" variable="Dalej_button" member="yes">
+					<label>Dalej</label>
+					<handler function="OnDalej_buttonClick" entry="EVT_BUTTON" />
+				</object>
+				<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxButton" name="ID_BUTTON1" variable="Losuj_button" member="yes">
+					<label>Losuj</label>
+					<handler function="OnLosuj_buttonClick" entry="EVT_BUTTON" />
+				</object>
+				<flag>wxALL|wxALIGN_RIGHT</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer31" member="no">
+					<cols>3</cols>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

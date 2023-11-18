@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Mundial" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/Mundial" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="$(#wx)/lib/gcc_lib/mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(#wx)/lib/gcc_lib/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libwxmsw30u.a" />
+					<Add library="libwxpng.a" />
+					<Add library="libwxjpeg.a" />
+					<Add library="libwxtiff.a" />
+					<Add library="libwxzlib.a" />
+					<Add directory="$(#wx)/lib/gcc_lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add option="-Wall" />
+			<Add directory="$(#wx)/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="$(#wx)/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+			<Add library="libkernel32.a" />
+			<Add library="libuser32.a" />
+			<Add library="libgdi32.a" />
+			<Add library="libwinspool.a" />
+			<Add library="libcomdlg32.a" />
+			<Add library="libadvapi32.a" />
+			<Add library="libshell32.a" />
+			<Add library="libole32.a" />
+			<Add library="liboleaut32.a" />
+			<Add library="libuuid.a" />
+			<Add library="libcomctl32.a" />
+			<Add library="libwsock32.a" />
+			<Add library="libodbc32.a" />
+		</Linker>
+		<Unit filename="Druzyna.cpp" />
+		<Unit filename="Druzyna.h" />
+		<Unit filename="FazaPucharowa.cpp" />
+		<Unit filename="FazaPucharowa.h" />
+		<Unit filename="Grupa.cpp" />
+		<Unit filename="Grupa.h" />
+		<Unit filename="JUFinalu.cpp" />
+		<Unit filename="JUFinalu.h" />
+		<Unit filename="MeczeA.cpp" />
+		<Unit filename="MeczeA.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="MundialApp.cpp" />
+		<Unit filename="MundialApp.h" />
+		<Unit filename="MundialMain.cpp" />
+		<Unit filename="MundialMain.h" />
+		<Unit filename="Remis.cpp" />
+		<Unit filename="Remis.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="wxsmith/FazaPucharowa.wxs" />
+		<Unit filename="wxsmith/JUFinalu.wxs" />
+		<Unit filename="wxsmith/MeczeA.wxs" />
+		<Unit filename="wxsmith/Menu.wxs" />
+		<Unit filename="wxsmith/Mundialdialog.wxs" />
+		<Unit filename="wxsmith/Remis.wxs" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="MundialApp.cpp" main="Menu" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxDialog wxs="wxsmith/Mundialdialog.wxs" src="MundialMain.cpp" hdr="MundialMain.h" fwddecl="0" i18n="1" name="MundialDialog" language="CPP" />
+					<wxDialog wxs="wxsmith/Menu.wxs" src="Menu.cpp" hdr="Menu.h" fwddecl="0" i18n="1" name="Menu" language="CPP" />
+					<wxDialog wxs="wxsmith/MeczeA.wxs" src="MeczeA.cpp" hdr="MeczeA.h" fwddecl="0" i18n="1" name="MeczeA" language="CPP" />
+					<wxDialog wxs="wxsmith/FazaPucharowa.wxs" src="FazaPucharowa.cpp" hdr="FazaPucharowa.h" fwddecl="0" i18n="1" name="FazaPucharowa" language="CPP" />
+					<wxDialog wxs="wxsmith/JUFinalu.wxs" src="JUFinalu.cpp" hdr="JUFinalu.h" fwddecl="0" i18n="1" name="JUFinalu" language="CPP" />
+					<wxDialog wxs="wxsmith/Remis.wxs" src="Remis.cpp" hdr="Remis.h" fwddecl="0" i18n="1" name="Remis" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

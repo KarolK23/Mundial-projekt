@@ -1,0 +1,4 @@
+aaaa ICON "figures/cup.ico"
+
+
+#include "wx/msw/wx.rc"
